@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    justify-content: center;
+    text-align: center;
+    justify-items: center;
+    background: url("https://images.otf3.pixelmotiondemo.com/HwJrv-20250726092254.jpg") ;
+    
+}
+table,th,td{
+border: 2px solid green;
+border-collapse: collapse;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 40px;
+}
+th{
+    background: green;
+}
+tr:nth-child(even) {
+    background-color: aquamarine;
+    text-align: center;
+}
+tr:nth-child(odd){
+    background-color: aqua;
+}
+
+caption{
+    color: green;
+    font-weight: 800;
+    font-size: 40px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+div{
+    background-color: black;
+    color: aliceblue;
+    padding: 5px;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+    
+
